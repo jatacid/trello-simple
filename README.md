@@ -4,15 +4,16 @@ A simple plugin for [osTicket](https://osticket.com) which creates Cards on a [T
 
 Install
 --------
-Clone this repo or download the zip file and place the contents into your `include/plugins` folder.
-Navigate to your OST plugins manager interface `//scp/plugins.php` and Install the Trello Plugin.
+Clone this repo or download the zip file and place the contents into a `\\osticket/include/plugins/trello-simple` folder.
+Navigate to your OST plugins manager interface `//scp/plugins.php` and Install the Plugin, then Enable the plugin. Then add your API keys and Trello ListID.
 
 
 Info
 ------
-This plugin uses CURL but otherwise relies on no third party API wrappers etc  
-It is a uni-directional plugin (from OsTicket to Trello).
+This plugin uses CURL but otherwise relies on no third party API wrappers etc.  
+It is a uni-directional plugin (from OsTicket to Trello).  
 It's been custom developed for a single purpose and this code is just being distributed as it may help others in a similar situation so anticipate some minor PHP coding to modify to your desired effect.  
+There is not a whole lot of error checking and fallback defaults so be sure to check it's set up correctly lest you see errors.  
 Tested on osTicket-1.10.1  
 
 Features
