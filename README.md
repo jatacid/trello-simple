@@ -2,6 +2,10 @@ osTicket-trello-simple
 ==============
 A simple plugin for [osTicket](https://osticket.com) which creates Cards on a [Trello](https://trello.com) board.
 
+Note
+--------
+This is no longer actively maintained and has been tested up to 1.10.1 for osTicket. It should continue to work for some time and the core principles should easily be modified if desired.
+
 Install
 --------
 Clone this repo or download the zip file and place the contents into a `\\osticket/include/plugins/trello-simple` folder.
